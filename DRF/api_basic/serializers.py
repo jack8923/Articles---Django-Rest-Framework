@@ -8,13 +8,13 @@ from .models import Article
 #
 #     def create(self, validated_data):
 #         """
-#         Create and return a new `Snippet` instance, given the validated data.
+#         Create and return a new `Article` instance, given the validated data.
 #         """
 #         return Article.objects.create(validated_data)
 #
 #     def update(self, instance, validated_data):
 #         """
-#         Update and return an existing `Snippet` instance, given the validated data.
+#         Update and return an existing `Article` instance, given the validated data.
 #         """
 #         instance.title = validated_data.get('title', instance.title)
 #         instance.author = validated_data.get('author', instance.author)
